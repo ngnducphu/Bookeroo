@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="column"
+    >
+      <p>
+        <img
+          alt="Sunflower"
+          className="resize"
+          src="https://www.baka-tsuki.org/project/images/9/9d/Sword_Art_Online_Progressive_Vol_1_-_001.jpg"
+        />
+      </p>
+      <h2>
+         WRITE A REVIEW
+      </h2>
+      <a
+        className="nav-link"
+        href="/book"
+        onClick={[Function]}
+      >
+        Sword Art Online: Progressive, Volume 1
+      </a>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <form>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="Review Headline"
+          >
+            Review Headline
+          </label>
+          <input
+            aria-describedby="Review Headline"
+            className="form-control"
+            id="Review Headline"
+            placeholder="Enter Review Headline"
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="fullname"
+          >
+            Fullname
+          </label>
+          <input
+            aria-describedby="fullname"
+            className="form-control"
+            id="fullname"
+            placeholder="Enter fullname"
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="email"
+          >
+            Email address
+          </label>
+          <input
+            aria-describedby="review"
+            className="form-control"
+            id="email"
+            placeholder="Enter email"
+            type="email"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="review"
+          >
+            Write your review here
+          </label>
+          <textarea
+            aria-describedby="review"
+            className="form-control"
+            id="review"
+            placeholder="Enter your review here"
+          />
+        </div>
+        <p>
+          Your Rating:
+        </p>
+        <meta
+          charSet="UTF-8"
+        />
+        <link
+          href="style.css"
+          rel="stylesheet"
+          type="text/css"
+        />
+        <div
+          className="rate"
+        >
+          <input
+            id="star5"
+            name="rate"
+            type="radio"
+            value="5"
+          />
+          <label
+            htmlFor="star5"
+            title="text"
+          >
+             5 stars  
+          </label>
+          <input
+            id="star4"
+            name="rate"
+            type="radio"
+            value="4"
+          />
+          <label
+            htmlFor="star4"
+            title="text"
+          >
+             4 stars  
+          </label>
+          <input
+            id="star3"
+            name="rate"
+            type="radio"
+            value="3"
+          />
+          <label
+            htmlFor="star3"
+            title="text"
+          >
+             3 stars  
+          </label>
+          <input
+            id="star2"
+            name="rate"
+            type="radio"
+            value="2"
+          />
+          <label
+            htmlFor="star2"
+            title="text"
+          >
+             2 stars  
+          </label>
+          <input
+            className="rate"
+            id="star1"
+            type="radio"
+            value="1"
+          />
+          <label
+            htmlFor="star1"
+            title="text"
+          >
+             1 star
+          </label>
+        </div>
+        <br />
+        <button
+          className="btn btn-primary"
+          type="submit"
+        >
+          Submit Review
+        </button>
+      </form>
+      <p
+        className="ex1"
+      />
+    </div>
+  </div>
+</div>
+`;

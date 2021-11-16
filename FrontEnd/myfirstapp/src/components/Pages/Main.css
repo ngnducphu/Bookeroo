@@ -1,0 +1,12 @@
+.err {
+  padding-bottom: 15px;
+  color: crimson;
+}
+
+.form {
+  margin-bottom: 0px !important;
+}
+
+.searchBtn {
+  height: 40px;
+}

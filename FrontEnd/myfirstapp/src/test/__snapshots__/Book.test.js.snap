@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="container"
+  data-testid="container"
+>
+  <div
+    className="row"
+    data-testid="row"
+  >
+    <div
+      className="col"
+      data-testid="col"
+    >
+      <img
+        alt="Sunflower"
+        className="rresize"
+      />
+    </div>
+    <div
+      className="col"
+    >
+      <h2
+        data-testid="book-title"
+      >
+        The Great Gatsby
+      </h2>
+      by
+       
+      F.Scott Fitgerald
+      <hr />
+      <p
+        style={
+          Object {
+            "textalign": "left",
+          }
+        }
+      >
+        <b
+          data-testid="price"
+        >
+          Price: $ 
+          20
+        </b>
+        <span
+          style={
+            Object {
+              "float": "right",
+            }
+          }
+        >
+          Status: 
+          <font
+            color="green"
+          />
+        </span>
+      </p>
+      <hr />
+      <h3>
+        Short Description
+      </h3>
+      <p>
+         Generally considered to be F. Scott Fitzgerald's finest novel, The Great Gatsby is a consummate summary of the 'roaring twenties'....read more
+      </p>
+      <hr />
+      <h3>
+        Long Description
+      </h3>
+      <p />
+      <hr />
+      <h3>
+        Product Details
+      </h3>
+      <p>
+        Publisher:
+        
+      </p>
+      <p>
+        ISBN10: 
+      </p>
+      <p>
+        ISBN13: 
+      </p>
+      <p>
+        Release Date: October 10, 2012
+      </p>
+      <hr />
+    </div>
+  </div>
+  <hr />
+</div>
+`;

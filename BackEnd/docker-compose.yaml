@@ -1,0 +1,28 @@
+version: '3'
+services:
+  login_service:
+    build:
+      context: ./
+      dockerfile: ./loginmicroservices/Dockerfile
+    image: 580827140556.dkr.ecr.ap-southeast-2.amazonaws.com/bookeroo-login-dev
+    ports:
+      - "8080:8080"
+  book_service:
+    build:
+      context: ./
+      dockerfile: ./bookmicroservices/Dockerfile
+    depends_on:
+      - login_service
+    image: 580827140556.dkr.ecr.ap-southeast-2.amazonaws.com/bookeroo-book-dev
+    ports:
+      - "8090:8090"
+  transaction_service:
+    build:
+      context: ./
+      dockerfile: ./transactionmicroservices/Dockerfile
+    depends_on:
+      - login_service
+      - book_service
+    image: 580827140556.dkr.ecr.ap-southeast-2.amazonaws.com/bookeroo-transaction-dev
+    ports:
+      - "8070:8070"

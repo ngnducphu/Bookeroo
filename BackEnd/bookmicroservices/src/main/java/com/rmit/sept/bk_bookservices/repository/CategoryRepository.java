@@ -1,0 +1,11 @@
+package com.rmit.sept.bk_bookservices.repository;
+
+import com.rmit.sept.bk_bookservices.model.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface CategoryRepository extends JpaRepository<Category, Integer> {
+
+    Category findByName(String name);
+}

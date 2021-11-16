@@ -1,0 +1,401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  class="row"
+  data-testid="row"
+>
+  <div
+    class="container"
+    data-testid="container"
+  >
+    <div
+      className="Toastify"
+    />
+    <div
+      class="column"
+    >
+      <h1
+        data-testid="form-title"
+      >
+        Sell A Book Form
+      </h1>
+      <h5
+        data-testid="form-description"
+      >
+        Please fill in the form below with the details of the book you want to sell. Thank you for choosing our platform to sell your book!
+      </h5>
+      <hr />
+      <br />
+      <form>
+        <div
+          class="form-group"
+        >
+          <i
+            class="fas fa-book-open"
+          >
+               
+          </i>
+          <label
+            data-testid="book-title"
+            for="Book Title"
+          >
+             
+            Book Title
+          </label>
+          <input
+            aria-describedby="Book Title"
+            class="form-control"
+            id="Book Title"
+            placeholder="Enter Book Title"
+            type="text"
+          />
+        </div>
+        <div
+          class="form-group"
+        >
+          <i
+            class="fas fa-user"
+          />
+             
+           
+          <label
+            for="author"
+          >
+            Author
+          </label>
+          <input
+            aria-describedby="Author"
+            class="form-control"
+            id="Author"
+            placeholder="Enter Author Name"
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <i
+            aria-hidden="true"
+            class="fa fa-list-alt"
+          />
+            
+          <label
+            for="category"
+          >
+            Category
+          </label>
+          <select
+            className="form-control form-control-md"
+            name="categorytype"
+          >
+            <option
+              selected={true}
+              value="Science Fiction"
+            >
+               
+              Science Fiction
+            </option>
+            <option
+              value="Novel"
+            >
+              Novel
+            </option>
+            <option
+              value="Fantasy"
+            >
+              Fantasy
+            </option>
+            <option
+              value="Thriller"
+            >
+              Thriller
+            </option>
+            <option
+              value="Romance"
+            >
+              Romance
+            </option>
+          </select>
+        </div>
+        <div
+          class="form-group"
+        >
+          <i
+            class="fas fa-info-circle"
+          />
+             
+           
+          <label
+            for="status"
+          >
+            Status (Published or Not)
+          </label>
+          <select
+            className="form-control form-control-md"
+          >
+             
+            <option
+              selected={true}
+              value="USED"
+            >
+               
+              Used
+            </option>
+            <option
+              value="NEW"
+            >
+              New
+            </option>
+          </select>
+        </div>
+        <div
+          class="form-group"
+        >
+          <i
+            class="fas fa-dollar-sign"
+          />
+             
+           
+          <label
+            for="price"
+          >
+            Price
+          </label>
+          <input
+            aria-describedby="price"
+            class="form-control"
+            id="price"
+            placeholder="Enter Price"
+            type="text"
+          />
+        </div>
+        <div
+          class="form-group"
+        >
+          <i
+            class="fas fa-info-circle"
+          />
+             
+           
+          <label
+            for="quantity"
+          >
+            Quantity
+          </label>
+          <input
+            aria-describedby="quantity"
+            class="form-control"
+            id="quantity"
+            placeholder="Enter Quantity"
+            type="text"
+          />
+        </div>
+        <div
+          class="form-group"
+        >
+          <i
+            class="fas fa-info-circle"
+          />
+             
+           
+          <label
+            for="quantity"
+          >
+            Publisher
+          </label>
+          <input
+            aria-describedby="publisher-name"
+            class="form-control"
+            id="publisher-name"
+            placeholder="Enter Publisher"
+            type="text"
+          />
+        </div>
+        <div
+          class="form-group"
+        >
+          <i
+            class="fas fa-bars"
+          />
+             
+           
+          <label
+            for="long description"
+          >
+            Long Description
+          </label>
+          <textarea
+            aria-describedby="long description"
+            class="form-control"
+            id="long description"
+            placeholder="Enter a long description"
+          />
+        </div>
+        <div
+          class="form-group"
+        >
+          <i
+            class="fas fa-bars"
+          />
+             
+           
+          <label
+            for="short description"
+          >
+            Short Description
+          </label>
+          <textarea
+            aria-describedby="short description"
+            class="form-control"
+            id="short description"
+            placeholder="Enter a short description"
+          />
+        </div>
+        <div
+          class="form-group"
+        >
+             
+          <i
+            class="fas fa-barcode"
+          />
+             
+           
+          <label
+            for="info"
+          >
+            ISBN 10
+          </label>
+          <input
+            aria-describedby="ISBN"
+            class="form-control"
+            id="ISBN-10"
+            placeholder="Enter ISBN 10"
+            type="text"
+          />
+          <br />
+        </div>
+        <div
+          class="form-group"
+        >
+             
+          <i
+            class="fas fa-barcode"
+          />
+             
+           
+          <label
+            for="info"
+          >
+            ISBN 13
+          </label>
+          <input
+            aria-describedby="ISBN"
+            class="form-control"
+            id="ISBN-13"
+            placeholder="Enter ISBN 13"
+            type="text"
+          />
+          <br />
+        </div>
+        <form
+          action="/action_page.php"
+        >
+             
+          <i
+            class="far fa-calendar-alt"
+          />
+             
+           
+          <label
+            for="info"
+          >
+            Published Date
+          </label>
+          <br />
+          <input
+            id="birthday"
+            name="birthday"
+            type="date"
+          />
+        </form>
+        <br />
+        <form
+          action="/action_page.php"
+        >
+          <i
+            class="fas fa-file-image"
+          />
+            
+          <label
+            for="img"
+          >
+            Add a Book Cover
+          </label>
+          <p>
+            You can either choose to add an image file or a URL
+          </p>
+          <i
+            class="fas fa-file-image"
+          />
+            
+          <input
+            accept="image/*"
+            id="img"
+            name="img"
+            type="file"
+          />
+          <br />
+          <br />
+          <p>
+             Or 
+          </p>
+          <i
+            class="fas fa-link"
+          />
+            
+           
+          <label
+            for="info"
+          >
+            Book Cover URL
+          </label>
+          <input
+            aria-describedby="url"
+            class="form-control"
+            id="url"
+            placeholder="Enter a URl for the cover image for your book"
+            type="url"
+          />
+        </form>
+        <br />
+        <p
+          style={
+            Object {
+              "textalign": "left",
+            }
+          }
+        >
+          <span
+            style={
+              Object {
+                "float": "right",
+              }
+            }
+          >
+            <button
+              class="btn btn-primary"
+              type="addbook"
+            >
+              Add Book
+            </button>
+            <p
+              class="ex1"
+            />
+          </span>
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
+`;

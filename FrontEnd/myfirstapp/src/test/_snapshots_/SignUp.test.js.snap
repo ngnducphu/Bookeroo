@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="register"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-8 m-auto"
+      >
+        <h1
+          className="display-4 text-center"
+        >
+          Sign Up
+        </h1>
+        <p
+          className="lead text-center"
+        >
+          Create your Account
+        </p>
+        <form>
+          <div
+            className="form-group"
+          >
+            <input
+              className="form-control form-control-lg"
+              name="username"
+              placeholder="Username"
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <input
+              className="form-control form-control-lg"
+              name="firstname"
+              placeholder="First Name"
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <input
+              className="form-control form-control-lg"
+              name="lastname"
+              placeholder="Last Name"
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <input
+              className="form-control form-control-lg"
+              name="address"
+              placeholder="Address"
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <input
+              className="form-control form-control-lg"
+              name="phoneNumber"
+              placeholder="Phone number"
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <select
+              className="form-control form-control-lg"
+              name="usertype"
+            >
+              <option
+                value="public"
+              >
+                Public User
+              </option>
+              <option
+                value="shop owner"
+              >
+                Shop owner
+              </option>
+            </select>
+          </div>
+          <div
+            className="form-group"
+          >
+            <input
+              className="form-control form-control-lg"
+              name="abnnumber"
+              placeholder="ABN Number"
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <input
+              className="form-control form-control-lg"
+              name="password"
+              placeholder="Password"
+              type="password"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <input
+              className="form-control form-control-lg"
+              name="confirmPassword"
+              placeholder="Confirm Password"
+              type="password"
+            />
+          </div>
+          <input
+            className="btn btn-info btn-block mt-4"
+            type="submit"
+          />
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;
