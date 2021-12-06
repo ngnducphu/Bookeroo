@@ -1,15 +1,11 @@
 
 
-# **RMIT SEPT 2021 Major Project**
+# **Bookeroo**
 
-# **GROUP 5 - MONDAY 17:30**
-
-## Members
-
-- Tuan Vu (s3678491)
-- Phu Nguyen (s3598775)
-- Janidu Higgoda (s3846409)
-- Edward Kahiro Kuo (s3691466)
+## Overview:
+- A book selling platform featuring fundamental functions: Sign-in, Register with Session Handling, User Authentication and Authorization with Spring Security and JWT, Load Balancing with Amazon Gateway, Cart, Order.
+- Front end React web app using Axios to communicate via API calls with Java Spring Boot Backend with 3 microservices for user accounts, books, and transaction, stacking on top of MySQL database. 
+- Dockerized and deployed all components on Amazon’s services with Unit tests and integration tests.
 
 ## Links
 
